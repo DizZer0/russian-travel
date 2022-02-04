@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0 56px;
+  width: calc(100% - 7.5%);
+
+}
+@media (max-width: 1279px) {
+  .header {
+    width: calc(100% - 9.375%);
+    padding-bottom: 48px;
+  }
+}
+@media (max-width: 1023px) {
+  .header {
+    width: calc(100% - 6.25%);
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    width: calc(100% - 10%);
+    padding: 16px 0 48px;
+  }
+}
