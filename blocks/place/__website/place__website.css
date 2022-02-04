@@ -1,8 +1,0 @@
-.place__website {
-  align-self: end;
-}
-@media (max-width: 767px) {
-  .place__website {
-    padding: 0 5% 0;
-  }
-}
