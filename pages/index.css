@@ -2,7 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 /* блок font-weight
 --------------------------------------------------------------------------*/
-@import url(../blocks/font-weight/__bold/font-weight__bold.css);
+@import url(../blocks/fontweight/__bold/fontweight__bold.css);
 /* блок page
 --------------------------------------------------------------------------*/
 @import url(../blocks/page/page.css);
