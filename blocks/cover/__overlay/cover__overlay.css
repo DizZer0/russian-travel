@@ -1,19 +1,24 @@
 .cover__overlay {
-  width: calc(100% - 96px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  min-width: 1184px;
   height: 100%;
   position: absolute;
   top: 0;
   left: 48;
   right: 48;
-  background-color: #2A2C2F;
-  opacity: 30%;
-  transition: opacity .3s;
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color .3s;
 }
 .cover__overlay:hover {
-  opacity: 80%;
+  background-color: rgba(42, 44, 47, .8);
 }
 @media (max-width: 1279px) {
   .cover__overlay {
+    min-width: 320px;
     width: 100%;
     left: 0;
     top: 0;

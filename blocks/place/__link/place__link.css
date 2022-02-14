@@ -7,6 +7,10 @@
   text-decoration-line: none;
   border-bottom: 1px solid white;
   color: #FFFFFF;
+  transition: opacity .2s;
+}
+.place__link:hover {
+  opacity: 80%;
 }
 @media (max-width: 767px) {
   .place__link {

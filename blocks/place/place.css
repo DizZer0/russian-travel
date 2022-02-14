@@ -1,9 +1,9 @@
 .place {
   display: grid;
-  grid-template-columns: 48729fr 51271fr;
+  grid-template-columns: 460px 484px;
   grid-template-rows: max-content max-content;
   gap: 48px 40px;
-  padding: 0 11.5625% 80px;
+  padding-bottom: 80px;
 }
 .place:last-child {
   padding-bottom: 0;
@@ -21,6 +21,7 @@
     grid-template-rows: min-content max-content;
     gap: 48px 28px;
     padding-bottom: 73px;
+
   }
 }
 @media (max-width:767px) {
