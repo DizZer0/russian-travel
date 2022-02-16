@@ -9,6 +9,8 @@
   color: #FFFFFF;
   margin: 0;
   padding-bottom: 32px;
+  z-index: 1;
+  pointer-events: none;
 }
 @media (max-width: 767px) {
   .cover__title {

@@ -12,6 +12,7 @@
 @media (max-width: 767px) {
   .places {
     padding-bottom: 66px;
+    width: calc(100% + 32px);
   }
 }
 
