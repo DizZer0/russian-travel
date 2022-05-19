@@ -15,4 +15,4 @@
 * Сделать добавление повторяющихся элементов, с помощью JS
 * Реализовать смену языка сайта
 
-##[Кликните, чтобы попасть на github pages](https://dizzer0.github.io/russian-travel/index.html)  
+## [Кликните, чтобы попасть на github pages](https://dizzer0.github.io/russian-travel/index.html)
